@@ -2,31 +2,31 @@ import React from 'react'
 
 export default function Feature() {
   return (
-    <section>
-        <img src="" alt="image not found" />
-        <img src="" alt="image not found" />
-        <div>
-            <h1>Accept Payments with Razorpay Payment Suite</h1>
+    <section className='relative mt-[190px] overflow-hidden'>
+        <img src="./dotted.png" className='absolute left-4 -top-[8rem]' width="233px" height="167px"  alt="image not found" />
+        <img src="./dotted.png" className='absolute right-6 top-5' width="233px" height="167px"  alt="image not found" />
+        <div className='w-7/12 flex flex-col mx-auto items-center justify-center gap-3 border-solid hover:border-dotted border-2 p-2 border-blue-200 rounded-md'>
+            <h1 className='font-bold text-3xl'>Accept Payments with Razorpay Payment Suite</h1>
             <div className='w-6 h-1 bg-green-400'></div>
-            <div>
+            <div className='flex flex-row'>
                 {/* left */}
 
-                <div>
-                    <h3>Supercharge your business with the all‑powerful Payment Gateway</h3>
-                    <ul>
-                        <li>100+ Payment Methods</li>
-                        <li>Industry Leading Success Rate</li>
-                        <li>Superior Checkout Experience</li>
-                        <li>Easy to Integrate</li>
-                        <li>Instant Settlements from day 1</li>
-                        <li>In-depth Reporting and Insights</li>
+                <div className='flex flex-col items-start justify-center mx-auto gap-4'>
+                    <h3 className='font-bold text-3xl'>Supercharge your business with the all‑powerful <span className='text-blue-400'> Payment Gateway</span></h3>
+                    <ul className='gap-2'>
+                        <li className='font-light p-1'>100+ Payment Methods</li>
+                        <li className='font-light p-1'>Industry Leading Success Rate</li>
+                        <li className='font-light p-1'>Superior Checkout Experience</li>
+                        <li className='font-light p-1'>Easy to Integrate</li>
+                        <li className='font-light p-1'>Instant Settlements from day 1</li>
+                        <li className='font-light p-1'>In-depth Reporting and Insights</li>
                     </ul>
-                    <div>
+                    <div className='flex flex-row gap-3 items-center justify-center border-solid hover:border-dotted border-2 p-2 border-blue-100 rounded-md'>
                         {/* button */}
-                        <button> Sign up now</button>
+                        <button className='border-solid border-3 hover:border-dotted border-black-400 bg-blue-300 p-2 rounded-md cursor-pointer hover:bg-cyan-300 transition-all duration-200'> Sign up now</button>
                         {/* hyperlink */}
                         <div>
-                            <a href="">know more</a>
+                            <a href=""><span className='text-blue-400'>know more</span></a>
                             <i></i>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Feature() {
 
                 {/* right */}
                 <div>
-                    <img src="./payment-suite.png" alt="" />
+                    <img src="./payment-suite.png" className='w-[1080px]'  alt="" />
                 </div>
             </div>
 
