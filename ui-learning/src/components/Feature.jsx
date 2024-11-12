@@ -5,7 +5,7 @@ export default function Feature() {
     <section className='relative mt-[190px] overflow-hidden'>
         <img src="./dotted.png" className='absolute left-4 -top-[8rem]' width="233px" height="167px"  alt="image not found" />
         <img src="./dotted.png" className='absolute right-6 top-5' width="233px" height="167px"  alt="image not found" />
-        <div className='w-7/12 flex flex-col mx-auto items-center justify-center gap-3 border-solid hover:border-dotted border-2 p-2 border-blue-200 rounded-md'>
+        <div className='w-7/12 flex flex-col mx-auto items-center justify-center gap-3 border-solid hover:border-dotted border-2 p-4 border-blue-200 rounded-md'>
             <h1 className='font-bold text-3xl'>Accept Payments with Razorpay Payment Suite</h1>
             <div className='w-6 h-1 bg-green-400'></div>
             <div className='flex flex-row'>
@@ -38,7 +38,77 @@ export default function Feature() {
                 </div>
             </div>
 
+
         </div>
+        
+
+        <div className='w-7/12 mx-auto grid grid-cols-3 gap-6 p-10 mt-10 '>
+            {/* box1 */}
+
+            <div className='flex flex-col gap-4 relative cursor-pointer'>
+                <img src="./payment-link.svg" className='absolute right-2 w-10 h-10 bg-blue-500 rounded-full' alt="kjjk" />
+                <h3 className='font-bold text-xl'>Payment Links</h3>
+                <p>Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more</p>
+                <div>
+                 <a href=""><span className='text-blue-400'>know more</span></a>
+                  <i></i>
+                </div>
+
+            </div>
+            <div className='flex flex-col gap-4 relative cursor-pointer'>
+                <img src="./payment-link.svg" className='absolute right-2 w-10 h-10 bg-blue-500 rounded-full' alt="kjjk" />
+                <h3 className='font-bold text-xl'>Payment Links</h3>
+                <p>Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more</p>
+                <div>
+                 <a href=""><span className='text-blue-400'>know more</span></a>
+                  <i></i>
+                </div>
+
+            </div>
+            <div className='flex flex-col gap-4 relative cursor-pointer'>
+                <img src="./payment-link.svg" className='absolute right-2 w-10 h-10 bg-blue-500 rounded-full' alt="kjjk" />
+                <h3 className='font-bold text-xl'>Payment Links</h3>
+                <p>Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more</p>
+                <div>
+                 <a href=""><span className='text-blue-400'>know more</span></a>
+                  <i></i>
+                </div>
+
+            </div>
+            <div className='flex flex-col gap-4 relative cursor-pointer'>
+                <img src="./payment-link.svg" className='absolute right-2 w-10 h-10 bg-blue-500 rounded-full' alt="kjjk" />
+                <h3 className='font-bold text-xl'>Payment Links</h3>
+                <p>Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more</p>
+                <div>
+                 <a href=""><span className='text-blue-400'>know more</span></a>
+                  <i></i>
+                </div>
+
+            </div>
+
+            <div className='flex flex-col gap-4 relative cursor-pointer'>
+                <img src="./payment-link.svg" className='absolute right-2 w-10 h-10 bg-blue-500 rounded-full' alt="kjjk" />
+                <h3 className='font-bold text-xl'>Payment Links</h3>
+                <p>Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more</p>
+                <div>
+                 <a href=""><span className='text-blue-400'>know more</span></a>
+                  <i></i>
+                </div>
+
+            </div>
+            <div className='flex flex-col gap-4 relative cursor-pointer'>
+                <img src="./payment-link.svg" className='absolute right-2 w-10 h-10 bg-blue-500 rounded-full' alt="kjjk" />
+                <h3 className='font-bold text-xl'>Payment Links</h3>
+                <p>Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more</p>
+                <div>
+                 <a href=""><span className='text-blue-400'>know more</span></a>
+                  <i></i>
+                </div>
+
+            </div>
+          
+        </div>
+        
     </section>
   )
 }
