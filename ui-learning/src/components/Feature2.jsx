@@ -28,10 +28,19 @@ export default function Feature2() {
                     </ul>
                     <div className='flex flex-row gap-3 items-center justify-center border-solid hover:border-dotted border-2 p-2 border-blue-100 rounded-md'>
                         {/* button */}
-                        <button className='border-solid border-3 hover:border-dotted border-black-400 bg-blue-300 p-2 rounded-md cursor-pointer hover:bg-cyan-300 transition-all duration-200'> Sign up now</button>
+                        <button className=' relative w-[180px] border-solid border-3 hover:border-dotted border-black-400 bg-blue-300 p-2 rounded-md cursor-pointer hover:bg-cyan-300 transition-all duration-200'>
+                             Sign up now
+                             <div className=' absolute flex  items-center justify-center bg-green-400 w-[30px]  -top-2 -bottom-2 right-2 m-1 skew-x-12'>
+                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <path d="M10 25H40M30 15l10 10-10 10" stroke="white" stroke-width="4" fill="none"/>
+</svg>
+
+                             </div>
+                        </button>
                         {/* hyperlink */}
                         <div>
-                            <a href=""><span className='text-blue-400'>know more</span></a>
+                            <a href=""><span className='text-blue-400'>know more</span>
+                            </a>
                             <i></i>
                         </div>
                     </div>
@@ -50,7 +59,15 @@ export default function Feature2() {
         <div className='w-7/12 mx-auto my-4 flex flex-row justify-center items-center gap-x-3 border-solid hover:border-dotted border-2 p-2 border-blue-100 rounded-md'>
             <h3 className='font-bold text-lg'>Check out the live demo to learn how RazorpayX works.
             No sign-up required!</h3> 
-            <button className='bg-blue-500 border-solid rounded-md p-2 hover:bg-blue-700' >Check out the demo</button>
+            <button className=' relative w-[260px] bg-blue-500 border-solid rounded-md p-2 hover:bg-blue-700' >
+                Check out the demo
+                <div className=' absolute flex  items-center justify-center bg-green-400 w-[30px]  -top-2 -bottom-2 right-2 m-1 skew-x-12'>
+                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <path d="M10 25H40M30 15l10 10-10 10" stroke="white" stroke-width="4" fill="none"/>
+</svg>
+
+                             </div>
+                </button>
         </div>
        
         
